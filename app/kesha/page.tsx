@@ -127,7 +127,7 @@ export default function KeshaPage() {
               borderLeft: '4px solid #4ade80',
               position: 'relative'
             }}>
-              <p style={{ color: '#44403C', margin: '0 0 '8px' 0', lineHeight: '1.5' }}>
+               <p style={{ color: '#44403C', margin: '0 0 8px 0', lineHeight: '1.5' }}>
                 {note.content}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
