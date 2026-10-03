@@ -3,6 +3,14 @@ import "./globals.css";
 export const metadata = {
   title: "КотоКеша",
   description: "Персонализированное кето-питание",
+  manifest: "/manifest.json",
+  icons: {
+    apple: "/icon.svg",
+  },
+};
+
+export const viewport = {
+  themeColor: "#4ade80",
 };
 
 export default function RootLayout({
