@@ -24,7 +24,6 @@ export default function RootLayout({
           {children}
         </main>
         
-        {/* Нижняя навигация */}
         <nav style={{
           position: 'fixed',
           bottom: 0,
