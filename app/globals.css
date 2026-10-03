@@ -1,1 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-cream-50 text-warm-800 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-card p-6;
+  }
+  
+  .btn-primary {
+    @apply bg-sage-400 hover:bg-sage-500 text-white rounded-xl px-6 py-3 transition-all duration-500 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-peach-100 hover:bg-peach-200 text-warm-700 rounded-xl px-6 py-3 transition-all duration-500 font-medium;
+  }
+  
+  .indicator-normal {
+    @apply bg-sage-200 text-sage-700 px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .indicator-warning {
+    @apply bg-peach-200 text-peach-700 px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .indicator-critical {
+    @apply bg-terracotta-100 text-terracotta-700 px-3 py-1 rounded-full text-sm font-medium;
+  }
+}
